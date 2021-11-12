@@ -53,8 +53,8 @@ let evensArr = []
 */
 
 //Code Here
-  for(i = 0; i <= nums.length; i++){
-    if(nums[i] % 2 == 0){
+  for(let i = 0; i <= nums.length; i++){
+    if(nums[i] % 2 === 0){
       evensArr.push(nums[i])
     }
   }
@@ -139,7 +139,7 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 //Code Here
 
 for (let i = 0; i <= listOfNumbers.length -1 ; i++){
-  if(listOfNumbers[i] % 3 == 0){
+  if(listOfNumbers[i] % 3 === 0){
     console.log(`Problem 8: ${listOfNumbers[i]} is divisible by 3.`)
   } else {
     console.log("Problem 8: ",listOfNumbers[i])
